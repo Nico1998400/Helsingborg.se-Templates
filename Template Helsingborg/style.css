@@ -6,6 +6,7 @@
 }
 
 .info-notice a {
+    text-decoration: underline;
     max-width: 100%;
     color: #252525;
 }
