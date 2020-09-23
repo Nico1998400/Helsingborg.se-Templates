@@ -1,9 +1,13 @@
+/* blue box on omsorg and stöd */
+
 .info-notice {
     margin-bottom: 32px;
     box-shadow: 0 2px 3px rgba(0,0,0,.08);
     background-color: #b1f5ff;
     padding: 8px 16px;
 }
+
+/* sidebar on omsorg and stöd */
 
 .info-notice a {
     text-decoration: underline;
@@ -22,3 +26,158 @@
 .nav-left_side a {
 
 }
+
+/* boxes on omsorg and stöd */
+
+.container-1 {
+    display: flex;
+    max-width: 100%;
+}
+
+.box1:hover {
+    background-color:#e6e3e3;
+}
+
+.container-2 {
+    display: flex; 
+    max-width: 100%;  
+}
+
+.container-3 {
+    display: flex;
+    max-width: 100%;
+    
+}
+
+.box1 {
+    flex: 1;
+    padding: 32px;
+    margin: 16px;
+    font-size: 15px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 2px 3px rgba(0,0,0,.08);
+    transition: 1s;
+    
+}
+
+.box2 {
+    flex: 1;
+    padding: 32px;
+    margin: 16px;
+}
+
+.box1 h1 {
+    font-size: 19px;
+    color: #cb0050;
+    
+}
+
+.icon {
+    display: flex;
+}
+
+.arrow {
+    color: #a7a7a7;
+    padding-top: 16px;
+    flex: 1;
+}
+
+.icon h1 {
+    flex: 20;
+}
+
+/*Nyheter Box on omsorg and stöd*/
+
+.box-nyheter {
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: 32;
+    box-shadow: 0 2px 3px rgba(0,0,0,.08);
+}
+
+.box-title {
+    margin: 16px;
+    font-size: 19px;
+    border-bottom: 3px solid #cb0050;
+    color: #cb0050;
+    
+}
+
+.icon-nyheter {
+    display: flex;
+    padding-left: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.icon-nyheter p {
+    margin-left: 10px;
+}
+
+.icon-nyheter a {
+    color: #ae0b05;
+    text-decoration: none;
+}
+
+.icon-nyheter a:hover {
+    text-decoration: underline;
+}
+
+.arrow-nyheter {
+    padding-top: 16px;
+    color: #a7a7a7;
+}
+
+/* Footer on omsorg och stöd */
+
+.facebook {
+    padding-left: 10px;
+}
+
+.twitter {
+    padding-left: 10px;
+}
+
+.linkedin {
+    padding-left: 10px;
+}
+
+.envelope {
+    padding-left: 10px;
+}
+
+.share {
+    padding-left: 20px;
+    padding-right: 10px;
+    color: #000000;
+}
+
+.icon-footer p {
+    color: #000000;
+}
+
+.icon-footer {
+    display: flex;
+    padding-left: 10px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 2px 3px rgba(0,0,0,.08);
+}
+
+.footer-omsorg {
+    margin: 16px;
+}
+
+.arrow-footer {
+    padding-top: 16px;
+    color: #a7a7a7;
+}
+
+.footer-ol {
+    padding: 0;
+    font-size: 14px;
+    list-style: none;
+}
+
+.push {
+    margin-top: 500px;
+}
+
